@@ -1,0 +1,29 @@
+.body{
+  border-color: black;
+  border-width: 2px;
+  border-radius: 15px;
+}
+
+#Player1{
+  position: sticky;
+  position: left;
+  width: 50%;
+  color: #9c9b98;
+}
+
+#Player2{
+  position: sticky;
+  position: right;
+  width: 50%;
+  color: #787877;
+}
+
+#player1Score, #player2Score {
+  font-family: sans-serif;
+  vertical-align: center;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: sans-serif;
+}
