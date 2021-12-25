@@ -5,18 +5,55 @@ body{
   height: 100%;
   width: 100%;
 }
+.P1{
+  background-color: red;
+}
+
+.P2{
+  background-color: blue;
+}
+
+.spacer{
+  width: 33%;
+}
+
+#leftSpacer{
+  height: 100%;
+  width: 16.5%;
+  float: left;
+  background-color: red;
+}
+
+#rightSpacer{
+  height: 100%;
+  width: 16.5%;
+  float: right;
+  background-color: blue;
+}
+
+#leftCenterSpacer{
+  height: 100%;
+  width: 16.5%;
+  float: right;
+  background-color: red;
+}
+
+#righttCenterSpacer{
+  height: 100%;
+  width: 16.5%;
+  float: left;
+  background-color: blue;
+}
 
 #Player1{
-  float: left;
   height: 100%;
-  width: 50%;
+  width: 16.5%;
   background-color: red;
 }
 
 #Player2{
-  float: right;
   height: 100%;
-  width: 50%;
+  width: 16.5%;
   background-color: blue;
 }
 
@@ -31,6 +68,7 @@ body{
 
 #P1Text, #P2Text{
   font-family: serif;
+  font-size: 18px;
   float: center;
   color: black;
 }
