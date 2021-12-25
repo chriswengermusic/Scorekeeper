@@ -13,68 +13,49 @@ body{
   background-color: blue;
 }
 
-.spacer{
-  width: 33%;
-}
-
-#leftSpacer{
-  height: 100%;
-  width: 16.5%;
-  float: left;
-  background-color: red;
-}
-
-#rightSpacer{
-  height: 100%;
-  width: 16.5%;
-  float: right;
-  background-color: blue;
-}
-
-#leftCenterSpacer{
-  height: 100%;
-  width: 16.5%;
-  float: right;
-  background-color: red;
-}
-
-#righttCenterSpacer{
-  height: 100%;
-  width: 16.5%;
-  float: left;
-  background-color: blue;
+#scoreDisplay{
+  width: auto;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 15px;
+  height: auto;
+  margin: auto;
 }
 
 #Player1{
+  float: left;
   height: 100%;
-  width: 16.5%;
+  width: 50%;
   background-color: red;
+  text-align: center;
 }
 
 #Player2{
+  float: right;
   height: 100%;
-  width: 16.5%;
+  width: 50%;
   background-color: blue;
+  text-align: center;
 }
 
 #P1Score, #P2Score {
-  float: center;
   font-family: sans-serif;
   color: black;
   vertical-align: center;
   margin: 0 auto;
   font-size: 480px;
+  text-align: center;
 }
 
 #P1Text, #P2Text{
   font-family: serif;
-  font-size: 18px;
-  float: center;
+  font-size: 36px;
   color: black;
+  text-align: center;
 }
 
 h1{
-  float:center;
+  text-align: center;
   margin: 0 auto;
   font-family: sans-serif;
   font-size: 36px;
