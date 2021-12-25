@@ -1,29 +1,43 @@
-.body{
+body{
   border-color: black;
   border-width: 2px;
   border-radius: 15px;
+  height: 100%;
+  width: 100%;
 }
 
 #Player1{
-  position: sticky;
-  position: left;
+  float: left;
+  height: 100%;
   width: 50%;
-  color: #9c9b98;
+  background-color: red;
 }
 
 #Player2{
-  position: sticky;
-  position: right;
+  float: right;
+  height: 100%;
   width: 50%;
-  color: #787877;
+  background-color: blue;
 }
 
-#player1Score, #player2Score {
+#P1Score, #P2Score {
+  float: center;
   font-family: sans-serif;
+  color: black;
   vertical-align: center;
   margin: 0 auto;
+  font-size: 480px;
+}
+
+#P1Text, #P2Text{
+  font-family: serif;
+  float: center;
+  color: black;
 }
 
 h1{
+  float:center;
+  margin: 0 auto;
   font-family: sans-serif;
+  font-size: 36px;
 }
